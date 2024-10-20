@@ -2,7 +2,7 @@ package Day20240923;
 
 import java.util.Scanner;
 
-public class A01_Loop {
+class A01_Loop {
     public static void main(String[] args) {
         int i;
         for(i = 0; i < 100; i++){

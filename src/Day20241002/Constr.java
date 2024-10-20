@@ -6,7 +6,7 @@ class qwer {
         System.out.println("qwer 생성자 호출");
     }
 }
-class asdf extends qwer{
+class asdf extends qwer {
     int aaa;
     public asdf () {
         super(); //상위 기본 생성자의 명시적 선언
