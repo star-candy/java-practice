@@ -24,7 +24,6 @@ class MyEvent3 extends JFrame { //actionListenr 귀찮음 - 이벤트 직접 관
             }
         });
 
-
         btnM = new JButton("두번째 버튼"); //해당 버튼도 이벤트 받을것
         btnM.addActionListener(e -> { //람다로 사용 가능, e로 이벤트 받으면 동작하는 방식
             System.out.println("두번째 버튼 리스너");
